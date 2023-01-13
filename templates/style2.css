@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Unbounded:wght@300&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+#quad{
+    background-color: dodgerblue;
+    opacity: 90%;
+    border: solid;
+    border-radius: 10px 70px 10px 70px;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    padding: 2%;
+}
+#quad:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#quad0{
+    background-image: url("slide-2.jpg");
+    background-repeat: round;
+    padding: 10%;
+    text-align: center;
+    color: white;
+}
+#quad01{
+    background-color: dodgerblue;
+    opacity: 90%;
+    border: solid;
+    border-radius: 10px 70px 10px 70px;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+#quad01:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#quad1{
+    padding: 8%;
+    text-align: center;
+}
+#quad1 li{
+    list-style: none;
+}
+#quad2{
+    padding: 5%;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+ }
+#quad3{
+    padding: 4%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: dodgerblue;
+}
+footer{
+    text-align: center;
+    background: grey;
+    color: whitesmoke;
+    padding: 5%;
+}
+footer li{
+    list-style: none;
+    font-size: 15pt;
+}
+footer li a{
+    list-style: none;
+    font-size: 15pt;
+    color: greenyellow;
+}
+footer li a:hover{
+    color: yellow;
+}
+.copyright{
+    padding: 1%;
+
+}
